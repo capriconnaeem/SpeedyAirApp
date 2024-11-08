@@ -7,3 +7,6 @@
 /.vs/SpeedyAirApp/FileContentIndex/026e4be0-2759-488d-b94b-0748e14af007.vsidx
 /.vs/SpeedyAirApp/FileContentIndex/71e32fec-559f-4296-b1d8-a250cd6a14ac.vsidx
 *.vsidx
+/SpeedyAirConsoleApp/.vs/SpeedyAir.ConsoleApp/v17/.suo
+/.vs/slnx.sqlite
+/.vs/slnx.sqlite-journal
