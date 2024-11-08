@@ -1,0 +1,11 @@
+C:\Users\Naeem PC\source\repos\SpeedyAir.Entities\bin\Debug\net8.0\SpeedyAir.Entities.deps.json
+C:\Users\Naeem PC\source\repos\SpeedyAir.Entities\bin\Debug\net8.0\SpeedyAir.Entities.dll
+C:\Users\Naeem PC\source\repos\SpeedyAir.Entities\bin\Debug\net8.0\SpeedyAir.Entities.pdb
+C:\Users\Naeem PC\source\repos\SpeedyAir.Entities\obj\Debug\net8.0\SpeedyAir.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Naeem PC\source\repos\SpeedyAir.Entities\obj\Debug\net8.0\SpeedyAir.Entities.AssemblyInfoInputs.cache
+C:\Users\Naeem PC\source\repos\SpeedyAir.Entities\obj\Debug\net8.0\SpeedyAir.Entities.AssemblyInfo.cs
+C:\Users\Naeem PC\source\repos\SpeedyAir.Entities\obj\Debug\net8.0\SpeedyAir.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Naeem PC\source\repos\SpeedyAir.Entities\obj\Debug\net8.0\SpeedyAir.Entities.dll
+C:\Users\Naeem PC\source\repos\SpeedyAir.Entities\obj\Debug\net8.0\refint\SpeedyAir.Entities.dll
+C:\Users\Naeem PC\source\repos\SpeedyAir.Entities\obj\Debug\net8.0\SpeedyAir.Entities.pdb
+C:\Users\Naeem PC\source\repos\SpeedyAir.Entities\obj\Debug\net8.0\ref\SpeedyAir.Entities.dll
