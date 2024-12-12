@@ -12,6 +12,10 @@ namespace SpeedyAir.ConsoleApp.Configs
 {
     public static class CommonConfigExtensions
     {
+        /// <summary>
+        /// Add Configurations
+        /// </summary>
+        /// <returns></returns>
         public static IConfiguration AddConfigurations()
         {
             return new ConfigurationBuilder()

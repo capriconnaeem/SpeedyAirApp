@@ -10,6 +10,11 @@ namespace SpeedyAir.Data
 {
     public class ApplicationContext: IApplicationContext
     {
+        /// <summary>
+        /// Load Orders From Json
+        /// </summary>
+        /// <param name="filePath"></param>
+        /// <returns></returns>
         public List<Order> LoadOrdersFromJson(string filePath)
         {
             if (!File.Exists(filePath))

@@ -14,6 +14,11 @@ namespace SpeedyAir.ConsoleApp.App
 {
     public static class Application
     {
+        /// <summary>
+        /// Start Application
+        /// </summary>
+        /// <param name="serviceProvider"></param>
+        /// <param name="_configuration"></param>
         public static async void StartApplication(IServiceProvider serviceProvider, IConfiguration _configuration)
         {
             try
@@ -53,6 +58,10 @@ namespace SpeedyAir.ConsoleApp.App
             }
 
         }
+        /// <summary>
+        /// Display Flights
+        /// </summary>
+        /// <param name="flights"></param>
         private static void DisplayFlights(IEnumerable<Flight> flights)
         {
 
@@ -77,6 +86,10 @@ namespace SpeedyAir.ConsoleApp.App
                 Console.WriteLine(ex.ToString());
             }
         }
+        /// <summary>
+        ///  Display Assign Orders To Flights
+        /// </summary>
+        /// <param name="assignedOrderList"></param>
         private static void DisplayAssignOrdersToFlights(IEnumerable<Order> assignedOrderList)
         {
             try

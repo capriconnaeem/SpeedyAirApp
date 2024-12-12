@@ -12,7 +12,9 @@ using SpeedyAir.Entities.Order;
 class Program
 {
     private static IConfiguration _configuration;
-
+    /// <summary>
+    /// Main method start
+    /// </summary>
     static void Main()
     {
         //Load Configuration

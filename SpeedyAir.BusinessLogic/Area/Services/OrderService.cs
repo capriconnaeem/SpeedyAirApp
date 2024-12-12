@@ -13,6 +13,12 @@ namespace SpeedyAir.BusinessLogic.Area.Services
         {
             _logger = logger;
         }
+        /// <summary>
+        /// Assign Orders To Flights
+        /// </summary>
+        /// <param name="flights"></param>
+        /// <param name="orders"></param>
+        /// <returns></returns>
         public async Task<BusinessResultWithData<IEnumerable<Order>>> AssignOrdersToFlights(List<Flight> flights, List<Order> orders)
         {
             _logger.LogInformation("Starting order assignment to flights.");

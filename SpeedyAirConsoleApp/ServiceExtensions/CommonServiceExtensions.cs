@@ -12,6 +12,10 @@ namespace SpeedyAir.ConsoleApp.ServiceExtensions
 {
     public static class CommonServiceExtensions
     {
+        /// <summary>
+        /// Add Services
+        /// </summary>
+        /// <returns></returns>
         public static ServiceProvider AddServices()
         {
             // Add logging configuration
