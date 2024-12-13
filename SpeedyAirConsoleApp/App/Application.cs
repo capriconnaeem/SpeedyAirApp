@@ -99,7 +99,7 @@ namespace SpeedyAir.ConsoleApp.App
                 {
                     if (order.FlightNumber != -1)
                     {
-                      
+
                         Console.WriteLine($"Order: {order.OrderID}, FlightNumber: {order.FlightNumber}, Departure: YUL, Arrival: {order.Destination}, Day: {(order.FlightNumber <= 3 ? 1 : 2)}");
                     }
                     else
