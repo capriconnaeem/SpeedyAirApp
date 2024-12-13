@@ -1,13 +1,9 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
-using SpeedyAir.BusinessLogic.Area.Services;
 using SpeedyAir.ConsoleApp.App;
 using SpeedyAir.ConsoleApp.Configs;
 using SpeedyAir.ConsoleApp.ServiceExtensions;
-using SpeedyAir.Data;
-using SpeedyAir.Entities.Order;
 
 class Program
 {

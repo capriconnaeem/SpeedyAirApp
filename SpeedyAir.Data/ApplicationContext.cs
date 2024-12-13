@@ -25,7 +25,18 @@ namespace SpeedyAir.Data
 
             var jsonData = File.ReadAllText(filePath);
             var ordersData = JsonConvert.DeserializeObject<Dictionary<string, dynamic>>(jsonData);
-            return ordersData.Select(o => new Order { OrderID = o.Key, Destination = o.Value.destination }).ToList();
+
+          var orders=  ordersData.Select(o => new Order { OrderID = o.Key, Destination = o.Value.destination, Service = o.Value.service }).ToList();
+            foreach (var item in orders)
+            {
+                if (item.Service == "same-day")
+                    item.ServiceType = ServiceType.SameDay;
+                else if (item.Service == "next-day")
+                    item.ServiceType = ServiceType.NextDay;
+                else if (item.Service == "regular")
+                    item.ServiceType = ServiceType.Regular;
+            }
+            return orders.OrderBy(x => x.ServiceType).ToList();
         }
     }
 }
